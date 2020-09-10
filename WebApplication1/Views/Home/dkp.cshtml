@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BrownCow.Player>
+@{
+    ViewData["Title"] = "DKP";
+
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Under Construction, This will allow you to find your dkp.</p>
+<div id="container">
+        
+        <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Discord User Name</th>
+                    <th>DKP</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in Model)
+                {
+                    @if (player.isinguild == "y")
+                    {
+                        <tr>                           
+                            <td>@player.discordnick</td>                           
+                            <td>@player.dkp</td>                           
+                        </tr>
+                    }
+                }
+                </tbody>
+        </table>
+    </div>
+</div>

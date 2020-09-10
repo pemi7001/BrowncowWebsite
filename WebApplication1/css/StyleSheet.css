@@ -1,0 +1,19 @@
+﻿#container {
+    box-sizing:border-box;
+}
+#body{
+
+}
+.img{
+    width:inherit;
+    height:300px;
+
+}
+#discord{
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+

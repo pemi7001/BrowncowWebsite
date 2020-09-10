@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{533171B2-4D23-4992-8D28-A15962926D20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrownCowBattalionDiscordBot", "..\..\..\Documents\GitHub\Discord.Net-Example\src\BrownCowBattalionDiscordBot.csproj", "{178E8F00-1834-43B4-A5EA-1B03A38537F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{533171B2-4D23-4992-8D28-A15962926D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533171B2-4D23-4992-8D28-A15962926D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533171B2-4D23-4992-8D28-A15962926D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533171B2-4D23-4992-8D28-A15962926D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178E8F00-1834-43B4-A5EA-1B03A38537F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178E8F00-1834-43B4-A5EA-1B03A38537F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178E8F00-1834-43B4-A5EA-1B03A38537F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178E8F00-1834-43B4-A5EA-1B03A38537F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD66E2E3-FBF2-47BD-BDF9-FD6EFA679D6D}
+	EndGlobalSection
+EndGlobal
